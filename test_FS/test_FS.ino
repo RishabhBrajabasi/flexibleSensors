@@ -130,7 +130,7 @@ void loop(void)
   /* Display the results (light is measured in lux) */
   if (event.light)
   {
-    Serial.print(event.light); //Serial.println(" lux");
+    Serial.println(event.light); //Serial.println(" lux");
   }
   else
   {
