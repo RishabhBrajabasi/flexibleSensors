@@ -23,8 +23,8 @@ void loop() {
   //  avg = (pr1+pr2+pr3+pr4)/4;
   Serial.print(pr1); Serial.print(",");
   Serial.print(pr2);Serial.print(",");
-  Serial.print(pr3); Serial.print(",");
-  Serial.print(pr4);Serial.print(",");
+//  Serial.print(pr3); Serial.print(",");
+//  Serial.print(pr4);Serial.print(",");
 //  Serial.print(pr5);Serial.print(",");
   //Serial.print(avg);Serial.print(",");
   Serial.println();
