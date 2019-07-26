@@ -1,0 +1,7 @@
+A0 - small
+A1 - large
+
+reverse - small closer to hand; large away
+normal - large closer to hand; small away
+
+fist - extend - 3x
