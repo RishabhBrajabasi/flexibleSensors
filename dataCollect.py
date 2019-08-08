@@ -4,11 +4,12 @@ import serial
 import time
 import sys
 
-fileOut = sys.argv[1]
+fileOut = sys.argv[2]
+port = sys.argv[1]
 
 f = open(fileOut, "w")
 
-ser = serial.Serial('/dev/ttyACM1', 9600, timeout=1)
+ser = serial.Serial(port, 9600, timeout=1)
 
 def getData(timeout, label):
     timeI = time.time()
