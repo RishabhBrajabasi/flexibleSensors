@@ -33,7 +33,7 @@ def getData(timeout, label):
         except:
             pass
 
-gestures = ["fist", "extend", "one", "two", "three", "four", "five", "spiderman", "vulcan"]
+gestures = ["fist", "extend", "one", "two", "three", "four", "five", "spiderman", "vulcan", "index in", "middle in", "ring in", "little in", "thumb in", "lift up", "lift down"]
 
 print("delta Time, Unix Time, pr1, pr2, pr3, pr4, pr5, label")
 f.write("delta Time, Unix Time, pr1, pr2, pr3, pr4, pr5, label\n")
